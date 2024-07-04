@@ -17,3 +17,25 @@
 body {
     font-family: 'Poppins', sans-serif;
 }
+
+#nav {
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: right;
+    text-align: center;
+    display: flex;
+    padding-top: 2vh;
+}
+
+#nav a {
+    text-decoration: none;
+    margin: 3vh;
+}
+
+.h1-big {
+    text-align: center;
+    margin-top: 2vh;
+    color: white;
+    -webkit-text-stroke: 1.3px black;
+    font-size: 40px;
+}
