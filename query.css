@@ -1,0 +1,38 @@
+@media only screen and (max-width: 1030px) {
+    .quotes-png {
+         left: 15%;
+ 
+    }
+}
+
+@media only screen and (max-width: 890px) {
+    .quotes-png {
+         left: 10%;
+    }
+
+    .contact {
+        display: block;
+    }
+
+}
+
+@media only screen and (max-width: 780px) {
+    .founders {
+        display: block;
+    }
+
+    .founder1, .founder2, .founder3 {
+        margin-top: 2vh;
+    }
+}
+
+@media only screen and (max-width: 750px) {
+    .quotes-png {
+         left: 5%;
+    }
+
+    .contact a {
+        text-align: center;
+        margin: 2vh;
+    }
+}
