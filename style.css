@@ -114,6 +114,7 @@ li, a {
 }
 
 footer p {
+    font-size: smaller;
     text-align: center;
-    margin-top: 2vh;
+    margin: 5vh 5vh 5vh;
 }
