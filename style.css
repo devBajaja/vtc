@@ -52,6 +52,7 @@ li, a {
 .h1-big {
     text-align: center;
     margin-top: 2vh;
+    margin-bottom: 2vh;
     font-size: 50px;
     letter-spacing: 1px;
 }
@@ -90,6 +91,18 @@ li, a {
 .about-founder {
     font-style: italic;
     text-align: center;
+}
+
+.contact {
+    text-align: center;
+}
+
+.contact a {
+    justify-content: center;
+    margin-inline: 10vh;
+    background-color: #5fdfff;
+    padding: 1vh;
+    border-radius: 2vh;
 }
 
 footer p {
