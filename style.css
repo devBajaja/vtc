@@ -16,27 +16,42 @@
 
 body {
     font-family: 'Poppins', sans-serif;
+    background-color: #F4F4F4;
 }
 
-#nav {
-    flex-direction: row;
-    flex-wrap: wrap;
-    justify-content: right;
-    text-align: center;
+header {
+    margin-top: 1vh;
     display: flex;
-    padding-top: 2vh;
+    justify-content: space-between;
+    align-items: center;
 }
 
-#nav a {
+.logo {
+    font-size: 30px;
+    font-weight: 700;
+    cursor: pointer;
+}
+
+li, a {
     text-decoration: none;
-    margin: 3vh;
+}
+
+#nav li {
+    display: inline-block;
+    padding: 0px 20px;
+}
+
+#nav li a {
+    transition: all 0.3s ease 0s;
+}
+
+#nav li a:hover {
+    color: #0088a9;
 }
 
 .h1-big {
     text-align: center;
     margin-top: 2vh;
-    color: white;
-    -webkit-text-stroke: 1.3px black;
     font-size: 50px;
     letter-spacing: 1px;
 }
@@ -59,7 +74,7 @@ body {
 }
 
 .founder1, .founder2, .founder3 {
-    background-color: rgb(240, 240, 240);
+    background: linear-gradient(to bottom left, #F4F4F4, #DBD9DB);
     border-radius: 1vh;
     width: 50%;
     padding: 1vh;
@@ -75,4 +90,9 @@ body {
 .about-founder {
     font-style: italic;
     text-align: center;
+}
+
+footer p {
+    text-align: center;
+    margin-top: 2vh;
 }
