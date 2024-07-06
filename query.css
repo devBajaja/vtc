@@ -41,4 +41,23 @@
     .h1-big {
         font-size: larger;
     }
+
+    #nav li {
+        padding: 0px 10px;
+    }
+
+    #nav a {
+        font-size: small;
+    }
+
+    .about-p {
+        justify-content: center;
+        margin-inline: 5vh;
+    }
+}
+
+@media only screen and (max-width: 420px) {
+    .contact a {
+        display: block;
+    }    
 }
